@@ -13,9 +13,9 @@ If you want to view the detailed information about the dataset used in this stud
 ---
 
 ## Benchmart Dataset
-The MathSpeech benchmark dataset is available on [huggingface🤗](https://huggingface.co/datasets/1anonymous1/MathSpeech) or through the following [link](https://drive.google.com/drive/folders/1M8_IVcesO2EwNcl9zwxY6UgqAmSODzgq?usp=sharing).
+The MathSpeech benchmark dataset is available on [huggingface🤗](https://huggingface.co/datasets/AAAI2025/MathSpeech) or through the following [link](https://drive.google.com/drive/folders/1M8_IVcesO2EwNcl9zwxY6UgqAmSODzgq?usp=sharing).
 
-- [MathSpeech in huggingface🤗 dataset](https://huggingface.co/datasets/1anonymous1/MathSpeech)
+- [MathSpeech in huggingface🤗 dataset](https://huggingface.co/datasets/AAAI2025/MathSpeech)
 - [Google Drive link for dataset](https://drive.google.com/drive/folders/1M8_IVcesO2EwNcl9zwxY6UgqAmSODzgq?usp=sharing)
 
 
@@ -131,13 +131,13 @@ git clone https://github.com/21anonymous12/AAAI2025.git
 ```bash
 pip install -r requirements.txt
 ```
-3. Place [the audio dataset and the transcription Excel file](https://drive.google.com/drive/folders/1WNm3UfADE19zOOo_HYAQbFB6ah9-MzXT?usp=sharing) inside the ASR folder.
+3. Place [the audio dataset and the transcription Excel file](https://drive.google.com/drive/folders/1M8_IVcesO2EwNcl9zwxY6UgqAmSODzgq?usp=sharing) inside the ASR folder.
 4. Run the following code.
 ```bash
 python ASR.py
 ```
 5. Go to the Experiments folder
-6. Move the 'MathSpeech_checkpoint.pth' from the following [link](https://drive.google.com/file/d/1y2SoovDDRSB36paRHUE995wysvZ-1nch/view?usp=sharing) into the Experiments folder.
+6. Move the 'MathSpeech_checkpoint.pth' from the following [link](https://drive.google.com/file/d/1m0cCpDDkOb7FltjLPVlg4ZCZSSSWZgS2/view?usp=sharing) into the Experiments folder.
 7. Run the following code.
 ```bash
 python MathSpeech_eval.py
