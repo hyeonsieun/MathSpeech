@@ -4,9 +4,11 @@
 In various academic and professional settings, such as mathematics lectures or research presentations, it is often necessary to convey mathematical expressions orally. However, reading mathematical expressions aloud without accompanying visuals can significantly hinder comprehension, especially for those who are hearing-impaired or rely on subtitles due to language barriers. For instance, when a presenter reads Euler's Formula, current Automatic Speech Recognition (ASR) models often produce a verbose and error-prone textual description (e.g., e to the power of i x equals cosine of x plus i $\textit{side}$ of x), instead of the concise LaTeX format (i.e., $e^{ix} = \cos(x) + i\sin(x)$), which hampers clear understanding and communication. To address this issue, we introduce MathSpeech, a novel pipeline that integrates ASR models with small Language Models (sLMs) to correct errors in mathematical expressions and accurately convert spoken expressions into structured LaTeX representations. Evaluated on a new dataset derived from lecture recordings, MathSpeech demonstrates LaTeX generation capabilities comparable to leading commercial Large Language Models (LLMs), while leveraging fine-tuned small language models of only 120M parameters.
 Specifically, in terms of CER, BLEU, and ROUGE scores for LaTeX translation, MathSpeech demonstrated significantly superior capabilities compared to GPT-4o. We observed a decrease in CER from 0.390 to 0.298, and higher ROUGE/BLEU scores compared to GPT-4o.
 
-### This page is for anonymous submission for AAAI 2025.
+### This study is accepted for the AAAI-25 Main Technical Track.
 
 Here, you can find the benchmark dataset, experimental code, and fine-tuned model checkpoints for MathSpeech, which we have developed for our research.
+
+If you want to view the detailed information about the dataset used in this study or additional experimental results such as latency measurements included in the appendix, please refer to the version uploaded on arXiv.
 
 ---
 
@@ -104,7 +106,7 @@ The MathSpeech benchmark dataset is available on [huggingface🤗](https://huggi
   </tbody>
 </table>
 
-##### The WER for Leaderboard was from the [HuggingFace Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard), while the WER for Formula was measured using our MathSpeech Benchmark.
+##### The WER for Leaderboard was from the [HuggingFace Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard), while the WER for Formula was measured using our MathSpeech Benchmark. This value is based on results as of 2024-08-16.
 
 
 ---
