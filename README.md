@@ -111,7 +111,7 @@ The MathSpeech benchmark dataset is available on [huggingface🤗](https://huggi
 
 ---
 ## MathSpeech Checkpoint
-You can download the MathSpeech checkpoint from the following [link](https://drive.google.com/file/d/1y2SoovDDRSB36paRHUE995wysvZ-1nch/view?usp=sharing).
+You can download the MathSpeech checkpoint from the following [link](https://drive.google.com/file/d/1m0cCpDDkOb7FltjLPVlg4ZCZSSSWZgS2/view?usp=sharing).
 
 ### Experiments codes
 
