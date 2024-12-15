@@ -115,11 +115,11 @@ You can download the MathSpeech checkpoint from the following [link](https://dri
 
 ### Experiments codes
 
-You can find the MathSpeech evaluation code, and the prompts used for the LLMs in the experiments at the following [link](https://github.com/21anonymous12/AAAI2025/tree/main/Experiments).
+You can find the MathSpeech evaluation code, and the prompts used for the LLMs in the experiments at the following [link](https://github.com/hyeonsieun/MathSpeech/tree/main/Experiments).
 
 ### Ablation Study codes
 
-You can find the code used in our Ablation Study at the following [link](https://github.com/21anonymous12/AAAI2025/tree/main/Ablation_Study).
+You can find the code used in our Ablation Study at the following [link](https://github.com/hyeonsieun/MathSpeech/tree/main/Ablation_Study).
 
 ---
 ## How to Use
